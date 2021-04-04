@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner {background-image: url( ../img/banner3.jpg);
+		 height: 100vh;
+		 background-size: cover;}
+
+.tieudechinh {text-align: left; 
+			  color: white;
+			  margin-top: 330px;
+			  margin-left: 30px;}
+
+.tieudechinh h1 {text-shadow: 2px 2px 5px grey}
+
+.tieudechinh button {color: white;
+					 background-color:hsla(0,0%,0%,0.00);
+					 border-color: aliceblue;
+					 width: 150px; height: 50px;
+					 border-radius: 10px}
+
+.thanhmenu button {color: antiquewhite;
+				   border-color:hsla(0,0%,100%,1.00)}
+
+.cuoicung{background-color: antiquewhite}
+
+.thanhlienhe {background-color: antiquewhite;
+			  height: 100vh}
+
+.thongtin {padding-top: 20px ; padding-left: 40px}
+
+.email {width:100% ; height: 50px; 
+		margin-top:60px;
+		border:none;
+		border-radius: 6px}
+
+.hopthu button {
+		margin-top:10px;
+		border: thick;
+		width: 80px; height: 30px;
+		background-color: black;
+		border-radius: 5px}
+
+.hopthu button a {text-decoration: none ; color: white}
+
+.xahoi {margin-top: 60px}
+.xahoi img {margin-left: 20px}
+
+.noidung1 {
+	padding-top: 20px ;
+    padding-bottom: 20px}
+
+.hinh1 {
+	background-image: url(../img/logohinhpng.png);
+	height: 300px;
+	background-size:contain;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+
+	margin-left: px}
+
+.gt1 {padding-left: 40px}
+
+.hinh1 h3 {font-size: 25px;
+		   margin-top: 90px;margin-left: 20px;
+		   color:black;
+		   z-index: 999;
+		   opacity: 10;
+		 
+		   animation-iteration-count: infinite;
+		   -webkit-animation: scale-in-left 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-left 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+
+@-webkit-keyframes scale-in-left {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-left {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+}
+
+
+
+.hinhtron1 {padding-bottom: 20px ; padding-left: 60px}
+.case1 {
+		width: 250px ; height: 250px; 
+		background-image: url(../img/ls1.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		border-radius: 200px;
+		text-align: center;
+		}
+.case1 img {padding-top: 40px}
+
+
+.case2{width: 250px ; height: 250px; 
+		background-image: url(../img/ls2.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		border-radius: 200px;
+		text-align: center;}
+.case2 img {padding-top: 40px}
+
+
+.case3{width: 250px ; height: 250px; 
+		background-image: url(../img/ls2.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		border-radius: 200px;
+		text-align: center;}
+.case3 img {padding-top: 40px}
+
+
+.chu1 h5{
+		text-align: center;
+		padding-top: 100px ; position: absolute;
+		padding-left: 50px ;
+		opacity: 0;
+
+		text-shadow: 1px 1px 5px grey}
+
+a {text-decoration: none ; color: black}
+
+.hinhtron1:hover .chu1 h5 {
+		opacity: 1;
+		color:black;
+		}
+
+.case1:hover {box-shadow: 2px 5px 20px black}
+.case2:hover {box-shadow: 2px 5px 20px black}
+.case3:hover {box-shadow: 2px 5px 20px black}
+
+.noidung3 {padding-top: 40px ; padding-bottom: 40px}
+
+
+.tieude1{text-align: center ;
+		 font-size: 40px;
+		 -webkit-animation: text-focus-in 8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.noidung4 {text-align: center;
+		   align-items: center}
+
+.sanpham {padding-top: 20px;
+		  text-align: center}
+
+.hinhsp {background-color: none;
+		 width: auto; 
+		 height: 350px;}
+
+.hinhsp img {
+		transition: all 0.1s linear ;
+	    opacity: 1}
+.hinhsp img:hover{
+		webkit-transform: scale(1.2);
+  		transform: scale(1.2);}
+
+.thongtinsp {text-align: center}
+
+.thanhmucluc {text-align: center;
+			  border-color: darkgray;
+			  height: 40px;
+			  width: auto;
+			  margin-top: 20px ;}
+.thanhmucluc a:hover {text-shadow: 1px 1px 2px grey}
+.thanhmucluc a li {padding-left: 30px}
+
+
+@media screen and (min-width:375px) and (max-width:996px) 
+{.banner {background-position: right} 
+ .thanhmenu {background-color:hsla(0,0%,100%,0.27)}
+ .email {width: 300px ; margin-top: 5px}
+ .xahoi{margin-top: 5px ; margin-bottom: 10px}
+ .noidung2{text-align: center ; margin-left: 0 ; margin-right: 0}
+ .hinhtron1{text-align: center; margin-left: 0 ; margin-right: 0}
+ .hinh2 img{width: 340px}
+ .noidung4{text-align: center}
+ .hinhsp{text-align: center}
+ .tieudechinh{text-align: center; margin-left: 0}}
+
+
+/* thanhscrollbar*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color:black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: antiquewhite; 
+}
+
+
+
